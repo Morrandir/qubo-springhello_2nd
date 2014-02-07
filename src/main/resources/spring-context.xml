@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="qubo" />
+    <!--context:component-scan base-package="qubo" /-->
 
     <bean id="propertyConfigurer"
           class="qubo.framework.EncryptedPropertyPlaceHolderConfigurer" >
@@ -44,7 +44,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <property name="mapperLocations"
-                  value="classpath*:qubo/modules/client_mapper_ibatis.xml" />
+                  value="classpath*:qubo/**/*ibatis.xml" />
         <property name="configLocation"
                   value="classpath:ibatis-config.xml" />
     </bean>
