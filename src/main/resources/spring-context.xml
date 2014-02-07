@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="qubo" />
+
+    <bean id="propertyConfigurer"
+          class="qubo.framework.EncryptedPropertyPlaceHolderConfigurer" >
+        <property name="locations">
+            <list>
+                <!--value>classpath:server.properties</value-->
+                <value>classpath:jdbc.properties</value>
+                <!--value>classpath:server.properties</value-->
+                <!--value>file:${catalina.home}/conf/Catalina_WS/localhost/jdbc.properties</value-->
+            </list>
+        </property>
+        <property name="ignoreUnresolvablePlaceholders" value="true"></property>
+        <property name="ignoreResourceNotFound" value="true"></property>
+    </bean>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <!-- <property name="initialSize" value="${jdbc.initialSize}"/> <property
+          name="maxActive" value="${jdbc.maxActive}"/> -->
+        <property name="maxIdle" value="-1" />
+        <property name="validationQuery" value="select 1" />
+        <property name="testOnBorrow" value="true" />
+        <property name="defaultAutoCommit" value="false" />
+        <property name="connectionInitSqls">
+            <list>
+                <value>${jdbc.connectionInitSqls}</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations"
+                  value="classpath*:qubo/modules/client_mapper_ibatis.xml" />
+        <property name="configLocation"
+                  value="classpath:ibatis-config.xml" />
+    </bean>
+
+</beans>
