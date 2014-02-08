@@ -1,0 +1,6 @@
+#jdbc.driverClassName=net.sourceforge.jtds.jdbc.Driver
+jdbc.driverClassName=ianywhere.ml.jdbcodbc.jdbc4.IDriver
+#jdbc.url=jdbc:jtds:sqlserver://10.200.96.89:2638/sm4;
+jdbc.url=jdbc:ianywhere:driver=SQL Anywhere 12;CommLinks=tcpip(host=10.200.96.89;port=2638;verify=no);ServerName=10.200.96.89
+
+#mvn install:install-file -DgroupId=com.sybase -DartifactId=sybase-jconnect -Dpackaging=jar -Dversion=3.0 -DgeneratePom=true -Dfile=jconn3.jar
