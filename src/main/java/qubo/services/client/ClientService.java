@@ -1,4 +1,4 @@
-package qubo.services;
+package qubo.services.client;
 
 /**
  * Created by Qubo_Song on 2/7/14.

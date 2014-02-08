@@ -1,5 +1,6 @@
-package qubo.modules;
+package qubo.modules.client;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -9,8 +10,11 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class ClientManagerImpl implements ClientManager {
 
+    @Autowired
+    private ClientDAO clientDAO;
+
     @Override
     public long CountClientsByPolicyMode(int policyMode) {
-        return 0;
+        return clientDAO.CountClientsByPolicyMode(policyMode);
     }
 }

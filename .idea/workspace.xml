@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0481539b-e41b-491d-98e5-175b7bc45780" name="Default" comment="update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" />
+      <change type="DELETED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__avalon_framework_avalon_framework_4_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__javax_servlet_servlet_api_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__log4j_log4j_1_2_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__logkit_logkit_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__org_apache_ibatis_ibatis_core_3_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/qubo/controllers/ClientServiceController.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/controllers/ClientServiceController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qubo-springhello_2nd.iml" afterPath="$PROJECT_DIR$/qubo-springhello_2nd.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__commons_logging_commons_logging_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\.idea\libraries\Maven__org_springframework_spring_dao_2_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\ClientDAO.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAO.java" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\ClientDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\ClientManager.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManager.java" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\ClientManagerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\services\ClientService.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/services/client/ClientService.java" />
+      <change type="MOVED" beforePath="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\services\ClientServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java" />
     </list>
     <ignored path="qubo-springhello_2nd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qubo-springhello_2nd$ExampleWebApp.coverage" NAME="ExampleWebApp Coverage Results" MODIFIED="1391835103460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>qubo.example.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -62,23 +80,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java" line="17" class="qubo.modules.ClientDAOImpl" package="qubo.modules">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -88,53 +90,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="client_mapper_ibatis.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client_mapper_ibatis.xml">
+      <file leaf-file-name="spring-context.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="4313">
-              <folding>
-                <marker date="1391786654056" expanded="true" signature="2477:2985" placeholder="SELECT clien..sem_client..." />
-                <marker date="1391786654056" expanded="true" signature="3169:4373" placeholder="SELECT V_SEM..." />
-                <marker date="1391786654056" expanded="true" signature="8753:8802" placeholder="SELECT COUNT..." />
-                <marker date="1391786654056" expanded="true" signature="8991:9040" placeholder="SELECT COUNT..." />
-                <marker date="1391786654056" expanded="true" signature="9948:10064" placeholder="SELECT imap...." />
-                <marker date="1391786654056" expanded="true" signature="10138:10161" placeholder="SELECT count..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComputerTO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ComputerTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="0.2948718" vertical-offset="56" max-vertical-offset="3800">
+            <state line="48" column="40" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.6277372" vertical-offset="558" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientTO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientTO.java">
+      <file leaf-file-name="Func1Controller.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/Func1Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2755">
+            <state line="14" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ibatis-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/ibatis-config.xml">
+      <file leaf-file-name="SqlSessionDaoSupport.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="684">
+            <state line="12" column="63" selection-start="476" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NameValueTO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/NameValueTO.java">
+      <file leaf-file-name="ClientDAOImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="931">
+            <state line="29" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,52 +128,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkConstants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/FrameworkConstants.java">
+      <file leaf-file-name="ExampleWebApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleWebApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1919">
+            <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <file leaf-file-name="ExampleFunc1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleFunc1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+            <state line="6" column="13" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncryptedPropertyPlaceHolderConfigurer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/EncryptedPropertyPlaceHolderConfigurer.java">
+      <file leaf-file-name="client_mapper_ibatis.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/client_mapper_ibatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1691">
+            <state line="8" column="65" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding>
-                <element signature="e#0#2816#0" expanded="false" />
-                <marker date="1391780388229" expanded="true" signature="550:826" placeholder="/**...*/" />
+                <marker date="1391848229145" expanded="true" signature="307:380" placeholder="SELECT COUNT..SEM_CLIENT..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/StringUtil.java">
+      <file leaf-file-name="ibatis-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ibatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1190" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6745">
-              <folding>
-                <element signature="e#0#10033#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="26" column="16" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="663">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientManager.java">
+      <file leaf-file-name="ClientManagerImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="17" column="49" selection-start="406" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="58" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -217,14 +208,23 @@
         <option value="$PROJECT_DIR$/src/main/java/qubo/framework/StringUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/framework/EncryptedPropertyPlaceHolderConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/qubo/framework/FrameworkConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/modules/NameValueTO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ibatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client_mapper_ibatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/modules/ClientTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/qubo/modules/ComputerTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/common/NameValueTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/framework/FrameworkConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/framework/BaseTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/ComputerTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientGroupTO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/client_mapper_ibatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/ibatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/client_mapper_ibatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -266,8 +266,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1420" />
+    <option name="height" value="888" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -297,6 +297,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,6 +317,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="qubo-springhello_2nd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qubo-springhello_2nd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qubo-springhello_2nd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,7 +382,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,7 +412,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,7 +539,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,22 +552,38 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/qubo/modules/client" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="qubo.modules" />
+      <recent name="qubo.modules.client" />
       <recent name="qubo.framework" />
+      <recent name="qubo.modules.common" />
+      <recent name="qubo.modules" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\qubo-springhello_2nd\src\main\resources" />
+      <recent name="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\client" />
       <recent name="G:\IdeaProjects\qubo-springhello_2nd\src\main\resources" />
       <recent name="G:\IdeaProjects\qubo-springhello_2nd\src\main\java\qubo\modules" />
       <recent name="D:\workspace\qubo-springhello_2nd\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="qubo.modules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\qubo-springhello_2nd\src\main\resources" />
+      <recent name="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\client\resources" />
+      <recent name="D:\workspace\qubo-springhello_2nd\src\main\java\qubo\modules\client" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ExampleWebApp">
@@ -575,11 +605,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="qubo-springhello_2nd" />
       <envs />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Cover" />
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
@@ -833,47 +865,51 @@
       <workItem from="1391766103917" duration="3545000" />
       <workItem from="1391774031398" duration="47000" />
       <workItem from="1391774090284" duration="5883000" />
+      <workItem from="1391825547438" duration="432000" />
+      <workItem from="1391826020144" duration="15789000" />
+      <workItem from="1391849477444" duration="1274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9475000" />
+    <option name="totallyTimeSpent" value="26970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1420" height="888" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39657444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25981873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25917768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -895,6 +931,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="50" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ibatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/EncryptedPropertyPlaceHolderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1190" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="6460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ibatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/EncryptedPropertyPlaceHolderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1190" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="6460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="20" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1083">
@@ -909,7 +1059,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="494">
           <folding>
@@ -921,18 +1071,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/ClientServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="551">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/ClientServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="58" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="532">
           <folding />
@@ -967,7 +1119,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="2" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="494">
           <folding>
@@ -979,18 +1131,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/ClientServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="551">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/ClientServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="58" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="532">
           <folding />
@@ -1007,34 +1161,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/Func1Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/ClientServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="58" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
@@ -1042,20 +1168,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="1190" selection-end="1204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6745">
-          <folding>
-            <element signature="e#0#10033#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/EncryptedPropertyPlaceHolderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1691">
-          <folding>
-            <element signature="e#0#2816#0" expanded="false" />
-            <marker date="1391780388229" expanded="true" signature="550:826" placeholder="/**...*/" />
-          </folding>
+        <state line="21" column="3" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1700">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,90 +1186,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleWebApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="5" column="17" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="911" selection-end="911" vertical-scroll-proportion="0.3548387" vertical-offset="157" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="22" selection-start="2509" selection-end="2509" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/services/client/ClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="58" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleFunc1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/ClientServiceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="525" selection-end="525" vertical-scroll-proportion="0.4117647" vertical-offset="152" max-vertical-offset="475">
+        <state line="19" column="23" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="425">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="406" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/controllers/Func1Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="21" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.44927537" vertical-offset="1175" max-vertical-offset="2242">
+        <state line="14" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="0.3768116" vertical-offset="98" max-vertical-offset="494">
+        <state line="7" column="56" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="63" selection-start="476" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client/ClientDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="15" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/framework/FrameworkConstants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/example/ExampleWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1919">
+        <state line="12" column="13" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="442">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/NameValueTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="931">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ibatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="684">
+        <state line="26" column="16" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="663">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/client_mapper_ibatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="65" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding>
+            <marker date="1391848229145" expanded="true" signature="307:380" placeholder="SELECT COUNT..SEM_CLIENT..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="50" selection-start="2303" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1083">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ClientTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/client_mapper_ibatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="4313">
-          <folding>
-            <marker date="1391786654056" expanded="true" signature="2477:2985" placeholder="SELECT clien..sem_client..." />
-            <marker date="1391786654056" expanded="true" signature="3169:4373" placeholder="SELECT V_SEM..." />
-            <marker date="1391786654056" expanded="true" signature="8753:8802" placeholder="SELECT COUNT..." />
-            <marker date="1391786654056" expanded="true" signature="8991:9040" placeholder="SELECT COUNT..." />
-            <marker date="1391786654056" expanded="true" signature="9948:10064" placeholder="SELECT imap...." />
-            <marker date="1391786654056" expanded="true" signature="10138:10161" placeholder="SELECT count..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/qubo/modules/ComputerTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="585" selection-end="585" vertical-scroll-proportion="0.2948718" vertical-offset="56" max-vertical-offset="3800">
+        <state line="48" column="40" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.6277372" vertical-offset="558" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
@@ -1171,7 +1319,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1206,11 +1354,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|qubo-springhello_2nd</last-edited>
+          <last-edited>qubo-springhello_2nd</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

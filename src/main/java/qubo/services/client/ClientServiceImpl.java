@@ -1,9 +1,10 @@
-package qubo.services;
+package qubo.services.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import qubo.configs.POLICY_MODE;
-import qubo.modules.ClientManager;
+import qubo.modules.client.ClientManager;
+import qubo.services.client.ClientService;
 
 /**
  * Created by Qubo_Song on 2/7/14.
