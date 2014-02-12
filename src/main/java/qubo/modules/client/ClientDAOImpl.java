@@ -1,5 +1,6 @@
 package qubo.modules.client;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
@@ -18,9 +19,15 @@ public class ClientDAOImpl extends SqlSessionDaoSupport implements ClientDAO {
     private static final String NAMESPACE = ClientDAOImpl.class.getPackage().getName();
 
     public ClientDAOImpl() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-context.xml");
-        SqlSessionFactory sqlSessionFactory = applicationContext.getBean(SqlSessionFactory.class);
-        this.setSqlSessionFactory(sqlSessionFactory);
+        //ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-context.xml");
+        //SqlSessionFactory sqlSessionFactory = applicationContext.getBean(SqlSessionFactory.class);
+        //this.setSqlSessionFactory(sqlSessionFactory);
+    }
+
+    @Autowired
+    @Override
+    public void setSqlSessionFactory(org.apache.ibatis.session.SqlSessionFactory sqlSessionFactory) {
+        super.setSqlSessionFactory(sqlSessionFactory);
     }
 
     @Override
