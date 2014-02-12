@@ -25,7 +25,6 @@ public class ExampleWebApp {
     public static void main(String[] args) {
         ApplicationContext ac = new ClassPathXmlApplicationContext("spring-context.xml");
         SpringApplication app = ac.getBean(SpringApplication.class);
-        //SpringApplication app = new SpringApplication(ExampleWebApp.class);
         app.run();
     }
 
