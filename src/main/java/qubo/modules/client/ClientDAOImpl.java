@@ -18,11 +18,11 @@ public class ClientDAOImpl extends SqlSessionDaoSupport implements ClientDAO {
 
     private static final String NAMESPACE = ClientDAOImpl.class.getPackage().getName();
 
-    public ClientDAOImpl() {
-        //ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-context.xml");
-        //SqlSessionFactory sqlSessionFactory = applicationContext.getBean(SqlSessionFactory.class);
-        //this.setSqlSessionFactory(sqlSessionFactory);
-    }
+/*    public ClientDAOImpl() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-context.xml");
+        SqlSessionFactory sqlSessionFactory = applicationContext.getBean(SqlSessionFactory.class);
+        this.setSqlSessionFactory(sqlSessionFactory);
+    }*/
 
     @Autowired
     @Override

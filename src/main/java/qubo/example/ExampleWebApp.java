@@ -6,16 +6,12 @@ package qubo.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextInitializer;
-import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.ImportResource;
 
-import java.util.HashSet;
-import java.util.Set;
 
-//@ComponentScan("qubo")
+@ImportResource("spring-context.xml")
+@ComponentScan("qubo")
 @EnableAutoConfiguration
 public class ExampleWebApp {
 
@@ -23,9 +19,8 @@ public class ExampleWebApp {
      * @param args
      */
     public static void main(String[] args) {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("spring-context.xml");
-        SpringApplication app = ac.getBean(SpringApplication.class);
-        app.run();
+        System.out.println(System.getProperty("java.library.path"));
+        new SpringApplication(ExampleWebApp.class).run();
     }
 
 }
